@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start">
+<!--        <Constraint android:id="@+id/animation_view" />-->
+<!--   -->
+        <Constraint
+            android:id="@+id/animation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/fruits" />
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+<!--        <Constraint android:id="@id/animation_view" />-->
+<!--        -->
+
+    </ConstraintSet>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@+id/start">
+        <OnSwipe
+            app:touchAnchorId="@id/animation_view"
+            app:dragDirection="dragUp"/>
+
+    </Transition>
+</MotionScene>
