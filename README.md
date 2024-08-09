@@ -14,11 +14,11 @@
 
 The app is built using the following technologies:
 
-- Kotlin: The app is built using the Kotlin programming language, which offers concise syntax and powerful features.
-- XML: this tags define the data and used to store and organize data. It's easily scalable and simple to develop. In Android, the XML is used to implement UI-related data
-- Lottie Library:A powerful web-based Lottie animation tool, designed to create ultra-lightweight, highly customizable and interactive animations for web and apps
-- Motion Layout: MotionLayout is the new layout in Android, to create amazing interactive animations. It is a subclass of ConstraintLayout that helps to manage motion and widget animation
-- Android studio IDE: Android Studio provides app builders with an integrated development environment (IDE) optimized for Android apps
+- [Kotlin language](https://kotlinlang.org/): The app is built using the Kotlin programming language, which offers concise syntax and powerful features.
+- [XML](https://developer.android.com/reference/android/util/Xml): this tags define the data and used to store and organize data. It's easily scalable and simple to develop. In Android, the XML is used to implement UI-related data.
+- [Lottie Library](https://lottiefiles.com/): A powerful web-based Lottie animation tool, designed to create ultra-lightweight, highly customizable and interactive animations for web and apps
+- [Motion Layout](https://developer.android.com/develop/ui/views/animations/motionlayout/examples): MotionLayout is the new layout in Android, to create amazing interactive animations. It is a subclass of ConstraintLayout that helps to manage motion and widget animation.
+- [Android studio](https://developer.android.com/studio): Android Studio provides app builders with an integrated development environment (IDE) optimized for Android apps.
 
 ## 🙏 Credits
 This app was created as a part of my journey with The [The Chance](https://github.com/TheChance101).
